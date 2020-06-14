@@ -9,7 +9,7 @@ os.chdir(r'')
 
 @bot.event
 async def on_ready():
-	print('Bot online.')
+	print('Bot is now online')
 
 @bot.event
 async def on_member_join(member):
